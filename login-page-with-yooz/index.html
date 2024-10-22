@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>login page with yooz</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="overlay">
+<!-- LOGN IN FORM by Omar Dsoky -->
+<form>
+   <!--   con = Container  for items in the form-->
+   <div class="con">
+   <!--     Start  header Content  -->
+   <header class="head-form">
+      <h2>Log In</h2>
+      <!--     A welcome message or an explanation of the login form -->
+      <p>inter your name to join your class</p>
+   </header>
+   <!--     End  header Content  -->
+   <br>
+   <div class="field-set">
+     
+      <!--   user name -->
+         <span class="input-item">
+           <i class="fa fa-user-circle"></i>
+         </span>
+        <!--   user name Input-->
+         <input class="form-input" id="txt-input" type="text" placeholder="name" required>
+     
+      <br>
+      <br>
+<!--        buttons -->
+<!--      button LogIn -->
+      <button class="log-in" onclick="saveInputValue()" id="btn"> Log In </button>
+   </div>
+     
+<!--   End Conrainer  -->
+  </div>
+  
+  <!-- End Form -->
+</form>
+</div>
+<!-- partial -->
+  <script  src="./parse.js"></script>
+
+</body>
+</html>

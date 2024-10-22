@@ -1,0 +1,19 @@
+teamA {Ali ، Amir ، Alireza}
+teamB {Ashkan ، Matin ، Hossein}
+teamC {Hassan ، Nima}
+(
+    + &teamA
+    - teamA
+)
+(
+    + &teamB
+    - teamB
+)
+(
+    + &teamC
+    - teamC
+)
+(
+    + *1
+    - no
+)

@@ -1,24 +1,19 @@
 # Login Page with Yooz
 
-A small learning repository related to a login-page project. This README describes the repository conservatively because the exact language/runtime and setup should be confirmed from the source files.
+A small browser-based project built around HTML, CSS, and JavaScript, with a `.yooz` data file and a JavaScript parser in the repository.
 
-## Project purpose
+## Files
 
-- Practice organizing a simple login-page project.
-- Explore how a login interface and its supporting code fit together.
+- `login-page-with-yooz/index.html` — page markup
+- `login-page-with-yooz/style.css` — styling
+- `login-page-with-yooz/parse.js` — JavaScript parsing logic
+- `login-page-with-yooz/data.yooz` — sample project data
+- `login-page-with-yooz/team/` — three additional HTML pages
 
-## Run it
+## Run
 
-1. Open the repository and review the source files to identify the app's entry point and required runtime.
-2. Install only the dependencies specified by the project files, if any.
-3. Run it using the command appropriate to that runtime.
+Open `login-page-with-yooz/index.html` in a browser. The project does not document a verified standalone Yooz runtime or a package-manager setup, so this README does not claim that a separate language installation is required.
 
-The previous README included placeholder links and commands (such as `example.com` and a generic `main.yoos` command); those were removed because they were not verified.
+## Learning focus
 
-## Learning notes
-
-Use this project to practice clear file organization, explaining setup steps, and documenting what the implementation actually supports.
-
-## Author
-
-[Farnam — GitHub profile](https://github.com/creator-69)
+Organizing HTML/CSS/JavaScript assets, connecting page markup to script logic, and experimenting with a custom data format.
